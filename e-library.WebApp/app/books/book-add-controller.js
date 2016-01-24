@@ -10,6 +10,7 @@
                 .then(function(newBook) {
                     library.addBook(newBook);
                     library.modalWindow.close();
+                    //Comment
                     message.success("Book saved.");
                 }, function(reason) {
                     message.error("Unable to save the book.");
